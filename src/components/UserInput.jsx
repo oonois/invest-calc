@@ -23,7 +23,7 @@ export default function UserInput({onChange, userInput, setUserInput}) {
         <p>
           <label 
             className="block mb-1 font-sans font-medium uppercase"
-            htmlFor="">Inverción Anual</label>
+            htmlFor="">Inversión Anual</label>
           <input 
             className="block rounded-md border-2 border-gray-100 border-opacity-20 mb-3 text-center bg-emerald-900"
             defaultValue={userInput.annualInvestment}
